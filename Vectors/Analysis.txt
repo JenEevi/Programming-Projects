@@ -1,0 +1,29 @@
+**********************
+* Jennifer Guidotti
+* Homework 4 - MyVector
+* Asymptotic Analysis
+**********************
+
+Member Function: T MyVector::operator[] (int index)
+
+f(1) + f(n) = f(1 + n) = Big O(n)
+
+Member Function: void MyVector::pop_back()
+
+f(1) + f(log n) = f(1 + log n) = Big O(log n)
+
+Member Function: void MyVector::push_back(T value)
+
+f(1) + f(n) + f(n) = f(1 + 2n) = Big O(n)
+
+Member Function: int MyVector::size()
+
+f(1) = Big O(1)
+
+Member Function: bool MyVector::empty()
+
+f(1) + f(n) = f(1 + n) = Big O(n)
+
+Member Function: int MyVector::search(T value)
+
+f(n) + f(1) = f(n + 1) = Big O(n)
